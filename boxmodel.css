@@ -1,0 +1,20 @@
+body{
+    font-family: fantasy;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+    background: gray;
+    padding: 10px;
+}
+.caja{
+    flex: 1;
+    background: black;
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100px;
+    border: 2px solid peru;
+    
+}

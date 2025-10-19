@@ -1,20 +1,12 @@
-body{
-    font-family: fantasy;
-}
-.contenedor{
+.flex-container{
     display: flex;
-    gap: 10px;
-    background: gray;
-    padding: 10px;
+    justify-content: space-around;
 }
-.caja{
-    flex: 1;
-    background: black;
-    color: wheat;
+.tarjeta{
+    border: 2px solid green;
+    padding: 50px;
+    margin: 10px;
+    background-color: rgb(51, 171, 51);
     text-align: center;
-    padding: 20px;
-    border-radius: 5px;
-    width: 100px;
-    border: 2px solid peru;
-    
+    border-radius: 10px;
 }

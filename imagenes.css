@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    padding: 30px;
+    color: aliceblue;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.item {
+    padding: 15px;
+    border: 2px solid #595959;
+    background-color: #202020;
+    border-radius: 12px;
+}
+
+.item img {
+    width: 100%;
+}
